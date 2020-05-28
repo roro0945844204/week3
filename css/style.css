@@ -1,0 +1,78 @@
+#header-nav {
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 0;
+}
+#virtical {
+    color: white;
+    width: 150px;
+    height: 0px;
+    margin: 20px 15px 20px 0px;
+    font-size: 25px;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: white;
+    color: black;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rebeccapurple;
+}
+@media (min-width:768px) {
+    #nav-list a {
+        color: #333333;
+        text-align: center;
+    }
+    #nav-list a:hover {
+        background-color: #333333;
+        color: #333333;
+    }
+    #nav-list a span {
+        font-size: 1.8em;
+    }
+}
+.ali {
+    text-align: center;
+}
+.border {
+    border: 3px solid black;
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    padding: 40px;
+    margin: 0px 0px 0px 420px;
+    float: left;
+	text-align: center;
+	display: block;
+}
+@media (max-width:768px) {
+    #virtical {
+        color: white;
+        width: 100px;
+        height: 0px;
+        margin: 0px 7.5px 50px 0px;
+        font-size: 20px;
+    }
+    .border {
+        border: 3px solid black;
+        background-color: #333333;
+        color: white;
+        width: 500px;
+        padding: 40px;
+        margin: 0px 0px 0px 145px;
+        float: left;
+        text-align: center;
+        display: block;
+    }
+    
+ 
+}
